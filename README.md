@@ -140,18 +140,12 @@ This makes it possible to follow the full lifecycle of each trade and diagnose d
 
 ---
 
-## Repository Structure
-
-
----
-
 ## Key Takeaways
 
 - A single strategy implementation is shared across backtest and live trading.
 - Higher timeframe data is handled with proper confirmation and delay.
 - Live trading behavior closely matches backtest behavior within acceptable real-world tolerances.
 - The system is designed to be reproducible, explainable, and verifiable.
-
 
 ---
 
